@@ -24,9 +24,9 @@ for i in range(0, 50):
     HE.append(str(He_sentence))
     SHE.append(str(She_sentence))
 # write the list into two files
-with open('/Users/dongyuewu/Desktop/HE.txt', mode='wt', encoding='utf-8') as file1:
+with open('HE.txt', mode='wt', encoding='utf-8') as file1:
     file1.write('\n'.join(HE))
-with open('/Users/dongyuewu/Desktop/SHE.txt', mode='wt', encoding='utf-8') as file2:
+with open('SHE.txt', mode='wt', encoding='utf-8') as file2:
     file2.write('\n'.join(SHE))
 
 
